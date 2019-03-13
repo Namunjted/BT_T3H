@@ -1,11 +1,11 @@
-a = 2**10000
-S = []
+number = 2**10000
+sum_ = 0
 
-for x in str(a):
-	S.append(int(x))
+for text in str(number):
+    sum_ += int(text)
+
+print(sum_)
 	
-print(sum(S))
-
 '''
 13561
 '''

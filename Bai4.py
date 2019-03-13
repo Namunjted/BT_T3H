@@ -1,9 +1,9 @@
 result = []
-for A in range(50):
-    for B in range(50):
-        for C in range(50):
-            if A > 0 and B > 0 and C > 0 and C * A + B == 10 * C:
-            	result.append([A,B,C])
+for a in range(1,50):
+    for b in range(1,50):
+        for c in range(1,50):
+            if  c * a + b == 10 * c:
+                result.append([a, b, c])
 print(result)
 
 

@@ -3,9 +3,9 @@ result = []
 for number in numbers:
     if number % 3 == 0 and number % 5 == 0:
         result.append("FizzBuzz")
-    elif (number % 3 == 0):
+    if (number % 3 == 0):
         result.append("Buzz")
-    elif (number % 5 == 0):
+    if (number % 5 == 0):
         result.append("Fizz")
     else:
         result.append(number)

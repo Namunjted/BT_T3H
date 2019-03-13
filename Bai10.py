@@ -1,20 +1,20 @@
 import string
 
-samples = ['python', 'patience', 'documents', 'students', 'homework',
-           'practice', 'success', 'english', 'university', 'congratulation']
-template = string.ascii_lowercase
+words = ['python', 'patience', 'documents', 'students', 'homework',
+         'practice', 'success', 'english', 'university', 'congratulation']
+alphabets = string.ascii_lowercase
 
-Sum = 0
-resuilt = []
+sum_ = 0
+result = []
 
-for sample in samples:
-    for x in sample:
-        if x in template:
-            Sum += template.index(x) + 1
-    resuilt.append(Sum)
-    Sum = 0
+for word in words:
+    for text in word:
+        if text in alphabets:
+            sum_ += alphabets.index(text) + 1
+    result.append(sum_)
+    sum_ = 0
 
-print(resuilt)
+print(result)
 
 
 '''

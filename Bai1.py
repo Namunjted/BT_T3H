@@ -14,12 +14,9 @@ To your heart.
 '''
 s = data.split("\n")
 result = []
-for x in range(1,len(s)-1):
-	print(s[x][0],end =' ')
-
-
+for x in s[1:len(s) - 1]:
+    print(x[0], end=" ")
 
 '''
 C R O S S M Y H E A R T
 '''
-

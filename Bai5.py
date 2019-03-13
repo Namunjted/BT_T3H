@@ -1,5 +1,5 @@
 n = int(input("nhap vao so phan tu cua list : "))
-a = [2 for i in range(n)]
+a = [2 for _ in range(n)]
 print(a)
 
 '''
@@ -9,8 +9,7 @@ nhap vao so phan tu cua list : 8
 #------------------------------------
 
 
-
-b = [number for number in range(0, 100) if number % 3 == 0 and number% 5 ==0]
+b = [number for number in range(0, 100) if number % 3 == 0 and number % 5 == 0]
 print(b)
 
 '''
@@ -21,12 +20,11 @@ print(b)
 #------------------------------------
 
 
-
 c = [str(i) * 6 for i in range(21) if i % 2 != 0]
 print(c)
 
 '''
-['111111', '333333', '555555', '777777', '999999', '111111111111', 
+['111111', '333333', '555555', '777777', '999999', '111111111111',
 '131313131313', '151515151515', '171717171717', '191919191919']
 '''
 
@@ -34,7 +32,7 @@ print(c)
 # #------------------------------------#
 
 
-from random import *
+from random import randrange
 N = int(input("nhap so phan tu cua list : "))
 d = [randrange(N) for _ in range(N)]
 print(d)
