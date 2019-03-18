@@ -12,10 +12,14 @@ As my love flows by
 Rushing through the flood-gates
 To your heart.
 '''
-s = data.split("\n")
+
+
+lines = data.strip().splitlines()
+
 result = []
-for x in s[1:len(s) - 1]:
-    print(x[0], end=" ")
+for line in lines:
+	print(line[0], end="")
+
 
 '''
 C R O S S M Y H E A R T
