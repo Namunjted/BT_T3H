@@ -5,7 +5,7 @@ lenght_tuples = int(input("nhap vao do dai tupper muon khoi tao : "))
 count = 0
 print("numbers = ", numbers)
 
-while count < 97:
+while count < 100:
     result.append(tuple(numbers[count:count + lenght_tuples]))
     count += lenght_tuples
 print("result = ", result)
